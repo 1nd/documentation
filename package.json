@@ -1,5 +1,5 @@
 {
-  "name": "documentation",
+  "name": "@1nd/documentation",
   "description": "a documentation generator",
   "version": "11.0.1",
   "author": "Tom MacWright",
@@ -105,7 +105,7 @@
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:documentationjs/documentation.git"
+    "url": "git@github.com:1nd/documentation.git"
   },
   "scripts": {
     "build": "npm run doc",

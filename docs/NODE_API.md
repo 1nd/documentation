@@ -12,10 +12,10 @@
 -   [formats.html][8]
     -   [Parameters][9]
     -   [Examples][10]
--   [formats.markdown][11]
+-   [formats.json][11]
     -   [Parameters][12]
     -   [Examples][13]
--   [formats.json][14]
+-   [formats.markdown][14]
     -   [Parameters][15]
     -   [Examples][16]
 
@@ -134,6 +134,30 @@ documentation.build(['index.js'])
 
 Returns **[Promise][21]&lt;[Array][17]&lt;[Object][19]>>** Promise with results
 
+## formats.json
+
+Formats documentation as a JSON string.
+
+### Parameters
+
+-   `comments` **[Array][17]&lt;[Comment][22]>** parsed comments
+
+### Examples
+
+```javascript
+var documentation = require('documentation');
+var fs = require('fs');
+
+documentation.build(['index.js'])
+  .then(documentation.formats.json)
+  .then(output => {
+    // output is a string of JSON data
+    fs.writeFileSync('./output.json', output);
+  });
+```
+
+Returns **[Promise][21]&lt;[string][18]>** 
+
 ## formats.markdown
 
 Formats documentation as
@@ -160,30 +184,6 @@ documentation.build(['index.js'])
 
 Returns **[Promise][21]&lt;[string][18]>** a promise of the eventual value
 
-## formats.json
-
-Formats documentation as a JSON string.
-
-### Parameters
-
--   `comments` **[Array][17]&lt;[Comment][22]>** parsed comments
-
-### Examples
-
-```javascript
-var documentation = require('documentation');
-var fs = require('fs');
-
-documentation.build(['index.js'])
-  .then(documentation.formats.json)
-  .then(output => {
-    // output is a string of JSON data
-    fs.writeFileSync('./output.json', output);
-  });
-```
-
-Returns **[Promise][21]&lt;[string][18]>** 
-
 [1]: #lint
 
 [2]: #parameters
@@ -204,13 +204,13 @@ Returns **[Promise][21]&lt;[string][18]>**
 
 [10]: #examples-2
 
-[11]: #formatsmarkdown
+[11]: #formatsjson
 
 [12]: #parameters-3
 
 [13]: #examples-3
 
-[14]: #formatsjson
+[14]: #formatsmarkdown
 
 [15]: #parameters-4
 
