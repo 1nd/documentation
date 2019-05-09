@@ -77,7 +77,7 @@ function _addComment(
     }*/ = {
       loc: nodeLoc,
       file: data.file,
-      sortKey: data.sortKey + ' ' + leftPad(nodeLoc.start.line, 8)
+      sortKey: key + ' ' + leftPad(nodeLoc.start.line, 8)
     };
 
     if (includeContext) {
