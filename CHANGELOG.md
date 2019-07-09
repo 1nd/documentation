@@ -2,16 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="11.0.2"></a>
+## [11.0.2](https://github.com/1nd/documentation/compare/v11.0.1...v11.0.2) (2019-07-09)
+
+
+### Bug Fixes
+
+* Don't write Markdown documentation for comment that has error so the documentation doesn't contain invalid entry.(https://github.com/1nd/documentation/pull/2)
+
+
+
 <a name="11.0.1"></a>
-# [11.0.1](https://github.com/documentationjs/documentation/compare/v11.0.0...v11.0.1) (2019-05-09)
+## [11.0.1](https://github.com/1nd/documentation/compare/v11.0.0...v11.0.1) (2019-05-09)
+
 
 ### Bug Fixes
 
 * Fix unstable sort in comments (https://github.com/1nd/documentation/pull/1)
 
 
+
 <a name="11.0.0"></a>
-# [11.0.0](https://github.com/documentationjs/documentation/compare/v10.1.0...v11.0.0) (2019-05-08)
+## [11.0.0](https://github.com/documentationjs/documentation/compare/v10.1.0...v11.0.0) (2019-05-08)
 
 
 ### Bug Fixes
@@ -33,7 +45,7 @@ in one place we had legacy and in another we didn't.
 
 
 <a name="10.1.0"></a>
-# [10.1.0](https://github.com/documentationjs/documentation/compare/v10.0.0...v10.1.0) (2019-04-25)
+## [10.1.0](https://github.com/documentationjs/documentation/compare/v10.0.0...v10.1.0) (2019-04-25)
 
 
 ### Features
@@ -43,7 +55,7 @@ in one place we had legacy and in another we didn't.
 
 
 <a name="10.0.0"></a>
-# [10.0.0](https://github.com/documentationjs/documentation/compare/v10.0.0-alpha.0...v10.0.0) (2019-04-18)
+## [10.0.0](https://github.com/documentationjs/documentation/compare/v10.0.0-alpha.0...v10.0.0) (2019-04-18)
 
 
 ### Features
@@ -56,7 +68,7 @@ in one place we had legacy and in another we didn't.
 
 
 <a name="10.0.0-alpha.0"></a>
-# [10.0.0-alpha.0](https://github.com/documentationjs/documentation/compare/v9.3.1...v10.0.0-alpha.0) (2019-03-12)
+## [10.0.0-alpha.0](https://github.com/documentationjs/documentation/compare/v9.3.1...v10.0.0-alpha.0) (2019-03-12)
 
 
 ### Features
@@ -77,7 +89,7 @@ major change to the documentation.js approach to Babel.
 
 
 <a name="9.3.0"></a>
-# [9.3.0](https://github.com/documentationjs/documentation/compare/v9.2.1...v9.3.0) (2019-02-27)
+## [9.3.0](https://github.com/documentationjs/documentation/compare/v9.2.1...v9.3.0) (2019-02-27)
 
 
 ### Features
@@ -92,7 +104,7 @@ major change to the documentation.js approach to Babel.
 
 
 <a name="9.2.0"></a>
-# [9.2.0](https://github.com/documentationjs/documentation/compare/v9.1.1...v9.2.0) (2019-02-22)
+## [9.2.0](https://github.com/documentationjs/documentation/compare/v9.1.1...v9.2.0) (2019-02-22)
 
 
 ### Bug Fixes
@@ -117,7 +129,7 @@ major change to the documentation.js approach to Babel.
 
 
 <a name="9.1.0"></a>
-# [9.1.0](https://github.com/documentationjs/documentation/compare/v9.0.0...v9.1.0) (2018-12-17)
+## [9.1.0](https://github.com/documentationjs/documentation/compare/v9.0.0...v9.1.0) (2018-12-17)
 
 
 ### Features
@@ -127,7 +139,7 @@ major change to the documentation.js approach to Babel.
 
 
 <a name="9.0.0"></a>
-# [9.0.0](https://github.com/documentationjs/documentation/compare/v9.0.0-alpha.1...v9.0.0) (2018-12-10)
+## [9.0.0](https://github.com/documentationjs/documentation/compare/v9.0.0-alpha.1...v9.0.0) (2018-12-10)
 
 
 ### Features
@@ -137,7 +149,7 @@ major change to the documentation.js approach to Babel.
 
 
 <a name="9.0.0-alpha.1"></a>
-# [9.0.0-alpha.1](https://github.com/documentationjs/documentation/compare/v9.0.0-alpha.0...v9.0.0-alpha.1) (2018-10-24)
+## [9.0.0-alpha.1](https://github.com/documentationjs/documentation/compare/v9.0.0-alpha.0...v9.0.0-alpha.1) (2018-10-24)
 
 
 ### Bug Fixes
@@ -154,7 +166,7 @@ major change to the documentation.js approach to Babel.
 
 
 <a name="9.0.0-alpha.0"></a>
-# [9.0.0-alpha.0](https://github.com/documentationjs/documentation/compare/v8.1.2...v9.0.0-alpha.0) (2018-09-21)
+## [9.0.0-alpha.0](https://github.com/documentationjs/documentation/compare/v8.1.2...v9.0.0-alpha.0) (2018-09-21)
 
 
 ### Features
@@ -192,7 +204,7 @@ temporarily disables support for following dynamic imports.
 
 
 <a name="8.1.0"></a>
-# [8.1.0](https://github.com/documentationjs/documentation/compare/v8.0.2...v8.1.0) (2018-08-03)
+## [8.1.0](https://github.com/documentationjs/documentation/compare/v8.0.2...v8.1.0) (2018-08-03)
 
 
 ### Bug Fixes
@@ -227,7 +239,7 @@ temporarily disables support for following dynamic imports.
 
 
 <a name="8.0.0"></a>
-# [8.0.0](https://github.com/documentationjs/documentation/compare/v7.1.0...v8.0.0) (2018-06-04)
+## [8.0.0](https://github.com/documentationjs/documentation/compare/v7.1.0...v8.0.0) (2018-06-04)
 
 
 ### Features
@@ -242,7 +254,7 @@ temporarily disables support for following dynamic imports.
 
 
 <a name="7.1.0"></a>
-# [7.1.0](https://github.com/documentationjs/documentation/compare/v7.0.0...v7.1.0) (2018-05-26)
+## [7.1.0](https://github.com/documentationjs/documentation/compare/v7.0.0...v7.1.0) (2018-05-26)
 
 
 ### Features
@@ -252,7 +264,7 @@ temporarily disables support for following dynamic imports.
 
 
 <a name="7.0.0"></a>
-# [7.0.0](https://github.com/documentationjs/documentation/compare/v6.3.3...v7.0.0) (2018-05-22)
+## [7.0.0](https://github.com/documentationjs/documentation/compare/v6.3.3...v7.0.0) (2018-05-22)
 
 
 ### Features
@@ -292,7 +304,7 @@ temporarily disables support for following dynamic imports.
 
 
 <a name="6.3.0"></a>
-# [6.3.0](https://github.com/documentationjs/documentation/compare/v6.2.0...v6.3.0) (2018-04-20)
+## [6.3.0](https://github.com/documentationjs/documentation/compare/v6.2.0...v6.3.0) (2018-04-20)
 
 
 ### Bug Fixes
@@ -307,7 +319,7 @@ temporarily disables support for following dynamic imports.
 
 
 <a name="6.2.0"></a>
-# [6.2.0](https://github.com/documentationjs/documentation/compare/v6.1.0...v6.2.0) (2018-04-11)
+## [6.2.0](https://github.com/documentationjs/documentation/compare/v6.1.0...v6.2.0) (2018-04-11)
 
 
 ### Bug Fixes
@@ -323,7 +335,7 @@ temporarily disables support for following dynamic imports.
 
 
 <a name="6.1.0"></a>
-# [6.1.0](https://github.com/documentationjs/documentation/compare/v6.0.0...v6.1.0) (2018-03-08)
+## [6.1.0](https://github.com/documentationjs/documentation/compare/v6.0.0...v6.1.0) (2018-03-08)
 
 
 ### Bug Fixes
@@ -338,7 +350,7 @@ temporarily disables support for following dynamic imports.
 
 
 <a name="6.0.0"></a>
-# [6.0.0](https://github.com/documentationjs/documentation/compare/v5.5.0...v6.0.0) (2018-03-02)
+## [6.0.0](https://github.com/documentationjs/documentation/compare/v5.5.0...v6.0.0) (2018-03-02)
 
 
 ### Features
@@ -353,7 +365,7 @@ temporarily disables support for following dynamic imports.
 
 
 <a name="5.5.0"></a>
-# [5.5.0](https://github.com/documentationjs/documentation/compare/v5.4.0...v5.5.0) (2018-03-02)
+## [5.5.0](https://github.com/documentationjs/documentation/compare/v5.4.0...v5.5.0) (2018-03-02)
 
 
 ### Bug Fixes
@@ -371,7 +383,7 @@ temporarily disables support for following dynamic imports.
 
 
 <a name="5.4.0"></a>
-# [5.4.0](https://github.com/documentationjs/documentation/compare/v5.3.5...v5.4.0) (2018-02-10)
+## [5.4.0](https://github.com/documentationjs/documentation/compare/v5.3.5...v5.4.0) (2018-02-10)
 
 
 ### Bug Fixes
@@ -443,7 +455,7 @@ temporarily disables support for following dynamic imports.
 
 
 <a name="5.3.0"></a>
-# [5.3.0](https://github.com/documentationjs/documentation/compare/v5.2.2...v5.3.0) (2017-09-04)
+## [5.3.0](https://github.com/documentationjs/documentation/compare/v5.2.2...v5.3.0) (2017-09-04)
 
 
 ### Bug Fixes
@@ -474,7 +486,7 @@ temporarily disables support for following dynamic imports.
 
 
 <a name="5.2.0"></a>
-# [5.2.0](https://github.com/documentationjs/documentation/compare/v5.1.1...v5.2.0) (2017-08-09)
+## [5.2.0](https://github.com/documentationjs/documentation/compare/v5.1.1...v5.2.0) (2017-08-09)
 
 
 ### Bug Fixes
@@ -501,7 +513,7 @@ temporarily disables support for following dynamic imports.
 
 
 <a name="5.1.0"></a>
-# [5.1.0](https://github.com/documentationjs/documentation/compare/v5.0.1...v5.1.0) (2017-07-31)
+## [5.1.0](https://github.com/documentationjs/documentation/compare/v5.0.1...v5.1.0) (2017-07-31)
 
 
 ### Bug Fixes
@@ -521,7 +533,7 @@ temporarily disables support for following dynamic imports.
 
 
 <a name="5.0.0"></a>
-# [5.0.0](https://github.com/documentationjs/documentation/compare/v4.0.0...v5.0.0) (2017-07-27)
+## [5.0.0](https://github.com/documentationjs/documentation/compare/v4.0.0...v5.0.0) (2017-07-27)
 
 
 ### Reverts
@@ -539,7 +551,7 @@ support in it.
 
 
 <a name="4.0.0"></a>
-# [4.0.0](https://github.com/documentationjs/documentation/compare/v4.0.0-rc.1...v4.0.0) (2017-07-27)
+## [4.0.0](https://github.com/documentationjs/documentation/compare/v4.0.0-rc.1...v4.0.0) (2017-07-27)
 
 
 ### Bug Fixes
@@ -559,7 +571,7 @@ support in it.
 
 
 <a name="4.0.0-rc.1"></a>
-# [4.0.0-rc.1](https://github.com/documentationjs/documentation/compare/v4.0.0-rc.0...v4.0.0-rc.1) (2017-05-01)
+## [4.0.0-rc.1](https://github.com/documentationjs/documentation/compare/v4.0.0-rc.0...v4.0.0-rc.1) (2017-05-01)
 
 
 ### Bug Fixes
@@ -577,7 +589,7 @@ support in it.
 
 
 <a name="4.0.0-rc.0"></a>
-# [4.0.0-rc.0](https://github.com/documentationjs/documentation/compare/v4.0.0-beta.19...v4.0.0-rc.0) (2017-04-21)
+## [4.0.0-rc.0](https://github.com/documentationjs/documentation/compare/v4.0.0-beta.19...v4.0.0-rc.0) (2017-04-21)
 
 
 ### Bug Fixes
@@ -632,7 +644,7 @@ function a({ x }) {}
 
 
 <a name="4.0.0-beta.19"></a>
-# [4.0.0-beta.19](https://github.com/documentationjs/documentation/compare/v4.0.0-beta.18...v4.0.0-beta.19) (2017-04-10)
+## [4.0.0-beta.19](https://github.com/documentationjs/documentation/compare/v4.0.0-beta.18...v4.0.0-beta.19) (2017-04-10)
 
 
 ### Bug Fixes
@@ -651,7 +663,7 @@ function a({ x }) {}
 
 
 <a name="4.0.0-beta.18"></a>
-# [4.0.0-beta.18](https://github.com/documentationjs/documentation/compare/v4.0.0-beta.17...v4.0.0-beta.18) (2016-12-29)
+## [4.0.0-beta.18](https://github.com/documentationjs/documentation/compare/v4.0.0-beta.17...v4.0.0-beta.18) (2016-12-29)
 
 
 ### Bug Fixes
@@ -671,7 +683,7 @@ function a({ x }) {}
 
 
 <a name="4.0.0-beta.17"></a>
-# [4.0.0-beta.17](https://github.com/documentationjs/documentation/compare/v4.0.0-beta16...v4.0.0-beta.17) (2016-12-23)
+## [4.0.0-beta.17](https://github.com/documentationjs/documentation/compare/v4.0.0-beta16...v4.0.0-beta.17) (2016-12-23)
 
 This release also fixes a mistake I was making with semver: pre-v4 beta
 releases will be called `beta.17` and `beta.18` and so on, rather than
@@ -685,7 +697,7 @@ non-standard `beta16` without the `.`.
 
 
 <a name="4.0.0-beta16"></a>
-# [4.0.0-beta16](https://github.com/documentationjs/documentation/compare/v4.0.0-beta15...v4.0.0-beta16) (2016-12-07)
+## [4.0.0-beta16](https://github.com/documentationjs/documentation/compare/v4.0.0-beta15...v4.0.0-beta16) (2016-12-07)
 
 
 ### Bug Fixes
@@ -703,7 +715,7 @@ non-standard `beta16` without the `.`.
 
 
 <a name="4.0.0-beta15"></a>
-# [4.0.0-beta15](https://github.com/documentationjs/documentation/compare/v4.0.0-beta14...v4.0.0-beta15) (2016-11-23)
+## [4.0.0-beta15](https://github.com/documentationjs/documentation/compare/v4.0.0-beta14...v4.0.0-beta15) (2016-11-23)
 
 ### Fixes
 
