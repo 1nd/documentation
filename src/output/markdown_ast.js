@@ -362,10 +362,12 @@ function buildMarkdownAST(comments, config) {
       generatorComment
         .concat(config.markdownToc ? tableOfContentsHeading : [])
         .concat(
-          comments.reduce(
-            (memo, comment) => memo.concat(generate(2, comment)),
-            []
-          )
+          comments.reduce((memo, comment) => {
+            if (comment && comment.errors && comment.errors.length === 0) {
+              return memo.concat(generate(2, comment));
+            }
+            return memo;
+          }, [])
         )
     )
   );

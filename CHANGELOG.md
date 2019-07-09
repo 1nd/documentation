@@ -2,12 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="11.0.2"></a>
+## [11.0.2](https://github.com/1nd/documentation/compare/v11.0.1...v11.0.2) (2019-07-09)
+
+
+### Bug Fixes
+
+* Don't write Markdown documentation for comment that has error so the documentation doesn't contain invalid entry.(https://github.com/1nd/documentation/pull/2)
+
+
+
 <a name="11.0.1"></a>
 # [11.0.1](https://github.com/documentationjs/documentation/compare/v11.0.0...v11.0.1) (2019-05-09)
+
 
 ### Bug Fixes
 
 * Fix unstable sort in comments (https://github.com/1nd/documentation/pull/1)
+
 
 
 <a name="11.0.0"></a>
